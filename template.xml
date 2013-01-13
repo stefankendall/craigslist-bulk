@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns="http://purl.org/rss/1.0/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cl="http://www.craigslist.org/about/cl-bulk-ns/1.0">
+
+    <channel>
+        <items>
+            <rdf:li rdf:resource="Book1"/>
+        </items>
+
+        <cl:auth username="stefankendall@gmail.com" password=""/>
+    </channel>
+
+    <item rdf:about="Book1">
+        <cl:category>bka</cl:category>
+        <cl:area>aus</cl:area>
+        <title>How I made $1000 in 1 Month on Craigslist</title>
+        <description><![CDATA[
+      Using nothing but craigslist, I made $1000 in 1 month. NO special skills or knowledge are required.
+
+I've created a book that walks you through every step of the process and every pitfall so you can get up and running as quickly as possible.
+
+I've already made $200 this weekend trading iPods, iPads, and iPhones, and you can too.
+
+If you want to follow my process, pick up "How I Made $1000 in One Month on Craigslist" on Amazon.
+    ]]></description>
+    </item>
+</rdf:RDF>
