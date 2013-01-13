@@ -18,7 +18,12 @@
         }
     };
 
+    var doneWithImages = function(){
+        $('button:contains("Done with Images")').click();
+    };
+
     mainPageRedirection();
     postInCategory();
     chooseCategory();
+    doneWithImages();
 })();

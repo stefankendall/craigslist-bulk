@@ -16,7 +16,6 @@
 
     var postInput = findInputFor("Posting Title");
     if (postInput.length !== 0) {
-        alert("Posting to page");
         postInput.val(POST.title);
         findInputFor("Price").val(POST.price);
         findInputFor("Posting Description").val(POST.description);
