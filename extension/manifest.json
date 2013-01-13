@@ -1,0 +1,32 @@
+{
+    "name":"Craigslist Automator",
+    "version":"1",
+    "manifest_version":2,
+    "description":"Faster craigslist posting.",
+    "background":{
+    },
+    "permissions":[
+    ],
+    "content_scripts":[
+        {
+            "matches":["*://craigslist.org/*", "*://*.craigslist.org/*"],
+            "js":[
+                "js/craigslist.js"
+            ]
+        }
+    ],
+    "web_accessible_resources":[
+        "js/lib/jquery-1.8.2.min.js",
+        "js/lib/underscore-min.js",
+        "js/posts/edit-post.js",
+        "js/posts/navigation.js"
+    ],
+    "browser_action":{
+        "default_icon":"images/icon19.png"
+    },
+    "icons":{
+        "16":"images/icon16.png",
+        "48":"images/icon48.png",
+        "128":"images/icon128.png"
+    }
+}
