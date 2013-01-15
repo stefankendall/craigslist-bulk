@@ -3,9 +3,8 @@
         title:'How I Made $1000 in 1 Month on craigslist',
         price:"$9.99",
         description:("Using nothing but craigslist, I made $1000 in 1 month. NO special skills or knowledge are required.\n\n" +
-            "I've created a book that walks you through every step of the process and every pitfall so you can get up and running as quickly as possible.\n\n" +
-            "I've already made $200 this weekend trading iPods, iPads, and iPhones, and you can too.\n\n" +
-            "If you want to make some money, pick up \"How I Made $1000 in One Month on Craigslist\" on Amazon.")
+        "I've created a book that walks through every step of the process and every pitfall so you can get up and running as quickly as possible.\n\n" +
+        "I've already made $500 this week making trades, and you can too. If you want to make some serious money, contact me and I’ll get you the book.")
     };
 
     var findInputFor = function (text) {
